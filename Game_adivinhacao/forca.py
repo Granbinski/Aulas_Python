@@ -144,7 +144,7 @@ def imprime_mensagem_abertura():
 
 
 def carrega_palavra_secreta():
-    arquivo = open("Game_adivinhacao\palavras.txt", "r")
+    arquivo = open("Game_adivinhacao/palavras.txt", "r")
     palavras = []
 
     for linha in arquivo:
